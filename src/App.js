@@ -15,12 +15,7 @@ function App() {
                 <Header />
                 <div className="container">
                     <Routes>
-                        <Route
-                            index
-                            path="/shop-page"
-                            element={<ShopPage />}
-                            exact
-                        />
+                        <Route index path="/" element={<ShopPage />} />
                         <Route path="/cart-page" element={<CartPage />} />
                     </Routes>
                 </div>
